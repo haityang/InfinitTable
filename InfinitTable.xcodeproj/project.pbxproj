@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4A585B01DC1D12E00416077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A585AF1DC1D12E00416077 /* main.m */; };
+		B4A585B31DC1D12E00416077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A585B21DC1D12E00416077 /* AppDelegate.m */; };
+		B4A585B91DC1D12E00416077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A585B71DC1D12E00416077 /* Main.storyboard */; };
+		B4A585BB1DC1D12E00416077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A585BA1DC1D12E00416077 /* Assets.xcassets */; };
+		B4A585BE1DC1D12E00416077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A585BC1DC1D12E00416077 /* LaunchScreen.storyboard */; };
+		B4A5860D1DC1D9B600416077 /* ITCalDataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A585FA1DC1D9B600416077 /* ITCalDataMgr.m */; };
+		B4A5860E1DC1D9B600416077 /* ITCalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A585FC1DC1D9B600416077 /* ITCalLayout.m */; };
+		B4A5860F1DC1D9B600416077 /* ITCalMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A585FE1DC1D9B600416077 /* ITCalMainView.m */; };
+		B4A586101DC1D9B600416077 /* ITCalMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A585FF1DC1D9B600416077 /* ITCalMainView.xib */; };
+		B4A586111DC1D9B600416077 /* ITCalPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A586011DC1D9B600416077 /* ITCalPriceCell.m */; };
+		B4A586121DC1D9B600416077 /* ITCalPriceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A586021DC1D9B600416077 /* ITCalPriceCell.xib */; };
+		B4A586131DC1D9B600416077 /* ITCalTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A586041DC1D9B600416077 /* ITCalTitleCell.m */; };
+		B4A586141DC1D9B600416077 /* ITCalTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A586051DC1D9B600416077 /* ITCalTitleCell.xib */; };
+		B4A586151DC1D9B600416077 /* ITCalTitleLTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A586071DC1D9B600416077 /* ITCalTitleLTCell.m */; };
+		B4A586161DC1D9B600416077 /* ITCalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A586091DC1D9B600416077 /* ITCalVC.m */; };
+		B4A586171DC1D9B600416077 /* UIScrollView+ITSVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A5860C1DC1D9B600416077 /* UIScrollView+ITSVPullToRefresh.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4A585AB1DC1D12E00416077 /* InfinitTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A585AF1DC1D12E00416077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4A585B11DC1D12E00416077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4A585B21DC1D12E00416077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4A585B81DC1D12E00416077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4A585BA1DC1D12E00416077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4A585BD1DC1D12E00416077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4A585BF1DC1D12E00416077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A585F91DC1D9B600416077 /* ITCalDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCalDataMgr.h; sourceTree = "<group>"; };
+		B4A585FA1DC1D9B600416077 /* ITCalDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCalDataMgr.m; sourceTree = "<group>"; };
+		B4A585FB1DC1D9B600416077 /* ITCalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCalLayout.h; sourceTree = "<group>"; };
+		B4A585FC1DC1D9B600416077 /* ITCalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCalLayout.m; sourceTree = "<group>"; };
+		B4A585FD1DC1D9B600416077 /* ITCalMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCalMainView.h; sourceTree = "<group>"; };
+		B4A585FE1DC1D9B600416077 /* ITCalMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCalMainView.m; sourceTree = "<group>"; };
+		B4A585FF1DC1D9B600416077 /* ITCalMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITCalMainView.xib; sourceTree = "<group>"; };
+		B4A586001DC1D9B600416077 /* ITCalPriceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCalPriceCell.h; sourceTree = "<group>"; };
+		B4A586011DC1D9B600416077 /* ITCalPriceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCalPriceCell.m; sourceTree = "<group>"; };
+		B4A586021DC1D9B600416077 /* ITCalPriceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITCalPriceCell.xib; sourceTree = "<group>"; };
+		B4A586031DC1D9B600416077 /* ITCalTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCalTitleCell.h; sourceTree = "<group>"; };
+		B4A586041DC1D9B600416077 /* ITCalTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCalTitleCell.m; sourceTree = "<group>"; };
+		B4A586051DC1D9B600416077 /* ITCalTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITCalTitleCell.xib; sourceTree = "<group>"; };
+		B4A586061DC1D9B600416077 /* ITCalTitleLTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCalTitleLTCell.h; sourceTree = "<group>"; };
+		B4A586071DC1D9B600416077 /* ITCalTitleLTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCalTitleLTCell.m; sourceTree = "<group>"; };
+		B4A586081DC1D9B600416077 /* ITCalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCalVC.h; sourceTree = "<group>"; };
+		B4A586091DC1D9B600416077 /* ITCalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCalVC.m; sourceTree = "<group>"; };
+		B4A5860B1DC1D9B600416077 /* UIScrollView+ITSVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ITSVPullToRefresh.h"; sourceTree = "<group>"; };
+		B4A5860C1DC1D9B600416077 /* UIScrollView+ITSVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ITSVPullToRefresh.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A585A81DC1D12E00416077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4A585A21DC1D12E00416077 = {
+			isa = PBXGroup;
+			children = (
+				B4A585AD1DC1D12E00416077 /* InfinitTable */,
+				B4A585AC1DC1D12E00416077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A585AC1DC1D12E00416077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A585AB1DC1D12E00416077 /* InfinitTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A585AD1DC1D12E00416077 /* InfinitTable */ = {
+			isa = PBXGroup;
+			children = (
+				B4A585F81DC1D9B600416077 /* ITGridCalendar */,
+				B4A5860A1DC1D9B600416077 /* ITSVPullToRefresh */,
+				B4A585B11DC1D12E00416077 /* AppDelegate.h */,
+				B4A585B21DC1D12E00416077 /* AppDelegate.m */,
+				B4A585B71DC1D12E00416077 /* Main.storyboard */,
+				B4A585BA1DC1D12E00416077 /* Assets.xcassets */,
+				B4A585BC1DC1D12E00416077 /* LaunchScreen.storyboard */,
+				B4A585BF1DC1D12E00416077 /* Info.plist */,
+				B4A585AE1DC1D12E00416077 /* Supporting Files */,
+			);
+			path = InfinitTable;
+			sourceTree = "<group>";
+		};
+		B4A585AE1DC1D12E00416077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A585AF1DC1D12E00416077 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4A585F81DC1D9B600416077 /* ITGridCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				B4A585F91DC1D9B600416077 /* ITCalDataMgr.h */,
+				B4A585FA1DC1D9B600416077 /* ITCalDataMgr.m */,
+				B4A585FB1DC1D9B600416077 /* ITCalLayout.h */,
+				B4A585FC1DC1D9B600416077 /* ITCalLayout.m */,
+				B4A585FD1DC1D9B600416077 /* ITCalMainView.h */,
+				B4A585FE1DC1D9B600416077 /* ITCalMainView.m */,
+				B4A585FF1DC1D9B600416077 /* ITCalMainView.xib */,
+				B4A586001DC1D9B600416077 /* ITCalPriceCell.h */,
+				B4A586011DC1D9B600416077 /* ITCalPriceCell.m */,
+				B4A586021DC1D9B600416077 /* ITCalPriceCell.xib */,
+				B4A586031DC1D9B600416077 /* ITCalTitleCell.h */,
+				B4A586041DC1D9B600416077 /* ITCalTitleCell.m */,
+				B4A586051DC1D9B600416077 /* ITCalTitleCell.xib */,
+				B4A586061DC1D9B600416077 /* ITCalTitleLTCell.h */,
+				B4A586071DC1D9B600416077 /* ITCalTitleLTCell.m */,
+				B4A586081DC1D9B600416077 /* ITCalVC.h */,
+				B4A586091DC1D9B600416077 /* ITCalVC.m */,
+			);
+			path = ITGridCalendar;
+			sourceTree = "<group>";
+		};
+		B4A5860A1DC1D9B600416077 /* ITSVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				B4A5860B1DC1D9B600416077 /* UIScrollView+ITSVPullToRefresh.h */,
+				B4A5860C1DC1D9B600416077 /* UIScrollView+ITSVPullToRefresh.m */,
+			);
+			path = ITSVPullToRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A585AA1DC1D12E00416077 /* InfinitTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A585C21DC1D12E00416077 /* Build configuration list for PBXNativeTarget "InfinitTable" */;
+			buildPhases = (
+				B4A585A71DC1D12E00416077 /* Sources */,
+				B4A585A81DC1D12E00416077 /* Frameworks */,
+				B4A585A91DC1D12E00416077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinitTable;
+			productName = InfinitTable;
+			productReference = B4A585AB1DC1D12E00416077 /* InfinitTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A585A31DC1D12E00416077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yht;
+				TargetAttributes = {
+					B4A585AA1DC1D12E00416077 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B4A585A61DC1D12E00416077 /* Build configuration list for PBXProject "InfinitTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4A585A21DC1D12E00416077;
+			productRefGroup = B4A585AC1DC1D12E00416077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A585AA1DC1D12E00416077 /* InfinitTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4A585A91DC1D12E00416077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A585BE1DC1D12E00416077 /* LaunchScreen.storyboard in Resources */,
+				B4A585BB1DC1D12E00416077 /* Assets.xcassets in Resources */,
+				B4A586141DC1D9B600416077 /* ITCalTitleCell.xib in Resources */,
+				B4A586121DC1D9B600416077 /* ITCalPriceCell.xib in Resources */,
+				B4A585B91DC1D12E00416077 /* Main.storyboard in Resources */,
+				B4A586101DC1D9B600416077 /* ITCalMainView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A585A71DC1D12E00416077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A5860F1DC1D9B600416077 /* ITCalMainView.m in Sources */,
+				B4A5860D1DC1D9B600416077 /* ITCalDataMgr.m in Sources */,
+				B4A586131DC1D9B600416077 /* ITCalTitleCell.m in Sources */,
+				B4A586171DC1D9B600416077 /* UIScrollView+ITSVPullToRefresh.m in Sources */,
+				B4A585B31DC1D12E00416077 /* AppDelegate.m in Sources */,
+				B4A586161DC1D9B600416077 /* ITCalVC.m in Sources */,
+				B4A586151DC1D9B600416077 /* ITCalTitleLTCell.m in Sources */,
+				B4A585B01DC1D12E00416077 /* main.m in Sources */,
+				B4A5860E1DC1D9B600416077 /* ITCalLayout.m in Sources */,
+				B4A586111DC1D9B600416077 /* ITCalPriceCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4A585B71DC1D12E00416077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A585B81DC1D12E00416077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4A585BC1DC1D12E00416077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A585BD1DC1D12E00416077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4A585C01DC1D12E00416077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4A585C11DC1D12E00416077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A585C31DC1D12E00416077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = InfinitTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rice.Ricefun.InfinitTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4A585C41DC1D12E00416077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = InfinitTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rice.Ricefun.InfinitTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A585A61DC1D12E00416077 /* Build configuration list for PBXProject "InfinitTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A585C01DC1D12E00416077 /* Debug */,
+				B4A585C11DC1D12E00416077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A585C21DC1D12E00416077 /* Build configuration list for PBXNativeTarget "InfinitTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A585C31DC1D12E00416077 /* Debug */,
+				B4A585C41DC1D12E00416077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4A585A31DC1D12E00416077 /* Project object */;
+}
